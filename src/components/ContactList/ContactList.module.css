@@ -1,0 +1,40 @@
+ul {
+    width: 600px;
+  }
+  
+  li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  p {
+    display: inline-block;
+    margin-bottom: 16px;
+    font-size: 20px;
+    color: #171718;
+  }
+  
+  li > button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: aquamarine;
+    border: 0;
+    outline: 0;
+    padding: 8px 24px;
+    margin-left: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0px 2px 1px 1px rgba(0, 0, 0, 0.05);
+    font: inherit;
+    text-transform: uppercase;
+    user-select: none;
+    transition: background-color 200ms ease-in-out;
+  }
+  
+  li > button:hover {
+    box-shadow: 0px 2px 1px 1px rgba(0, 0, 0, 0.15);
+    background-color: rgb(8, 180, 123);
+  }
